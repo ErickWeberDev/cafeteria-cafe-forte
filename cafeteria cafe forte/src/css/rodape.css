@@ -1,0 +1,29 @@
+.rodape {
+  text-align: center;
+  background-color: var(--marrom-escuro);
+  color: var(--braco-normal);
+}
+
+
+.rodape h2 {
+  text-shadow: 3px 2px 0 black;
+  padding: 5px 0;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.rodape a {
+  color: var(--braco-normal);
+}
+
+.rodape a:hover{
+  color: var(--botao-marrom);
+}
+
+
+.rodape p {
+
+  padding: 5px 0;
+  font-size: 20px;
+  font-weight: 500;
+}

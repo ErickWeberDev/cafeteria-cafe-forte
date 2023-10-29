@@ -1,0 +1,39 @@
+.conteudo table,
+.conteudo tr,
+.conteudo td,
+.conteudo th {
+  border: 1px solid var(--black);
+}
+
+.conteudo table {
+  border-collapse: collapse;
+  min-width: 30%;
+  margin-left: 80px;
+}
+
+.conteudo th,
+.conteudo td {
+  padding: 8px;
+}
+
+.conteudo th {
+  background-color: var(--braco-normal);
+}
+
+/* Cor para linhas pares */
+.conteudo tr:nth-child(even) {
+  background-color: var(--cinza-escuro);
+}
+
+/* Cor para linhas impares */
+.conteudo tr:nth-child(odd) {
+  background-color: var(--cinza-normal);
+}
+
+
+
+@media screen and (max-width: 800px) {
+  .conteudo table{
+    margin: 0 auto;
+  }
+}

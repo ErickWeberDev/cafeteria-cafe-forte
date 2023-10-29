@@ -1,0 +1,18 @@
+:root {
+  --braco-normal: #ffffff;
+
+  --cinza-escuro: #979797;
+  --cinza-normal: #c2c2c2;
+  --cinza-claro: rgb(224, 224, 224);
+
+  --black: #000000;
+
+  --fundo-marrom: rgb(240, 215, 196);
+  --marrom-muito-claro: rgb(245, 221, 178);
+  --marrom-claro: #9b6b43;
+  --botao-marrom: #66462c;
+  --marrom-normal: #674b3f;
+  --marrom-escuro: #382d29;
+
+  --gradient-marrom: linear-gradient(to bottom, #4e392f, #674b3f, #4e392f);
+}
